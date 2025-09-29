@@ -1,0 +1,42 @@
+@use 'variaveis';
+
+h2 {
+    color: #333; /* Cor do título */
+}
+
+header {
+    background: #fff; /* Fundo branco para o cabeçalho */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#sobre {
+    @include centralizar-texto;
+    border-radius: 16px;
+    box-shadow: $cor-primaria;
+}
+
+#valores{
+    @include centralizar-texto;
+    border-radius: 16px;
+    box-shadow: $cor-primaria;
+    
+}
+
+#servicos{
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: $cor-primaria;
+}
+
+#depoimentos{
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: $cor-primaria;
+}
+
+#contato{
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: $cor-primaria;
+    padding: 0;
+}
